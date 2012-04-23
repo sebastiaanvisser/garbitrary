@@ -1,0 +1,19 @@
+Name:             garbitrary
+Version:          0.0.1
+Description:      Generic QuickCheck arbitrary.
+Synopsis:         Generic QuickCheck arbitrary.
+Category:         Cat0, Cat1
+License:          BSD3
+License-file:     LICENSE
+Author:           Sebastiaan Visser, Chris Eidhof
+Maintainer:       haskell@fvisser.nl
+Build-Type:       Simple
+Build-Depends:    base, QuickCheck ==1.2.*, random ==1.0.*
+
+GHC-Options:      -Wall
+Extensions:       CPP
+HS-Source-Dirs:   src
+Exposed-modules:  Generics.SingleRec.Base,
+                  Generics.SingleRec.Fixpoints,
+                  Generics.SingleRec.Arbitrary
+
